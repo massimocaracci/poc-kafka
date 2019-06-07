@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+# Application logging
+logging:
+  level:
+    root: WARN
+    org.springframework: INFO
+    com.pantasoft: DEBUG
+
+spring:
+  application:
+    name: panta-kafka-producer

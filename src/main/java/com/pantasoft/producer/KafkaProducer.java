@@ -22,6 +22,6 @@ public class KafkaProducer {
                 value
         );
 
-        LOG.info("Message sent");
+        LOG.info("Message sent to {}", value);
     }
 }

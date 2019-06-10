@@ -39,6 +39,8 @@ dependencies {
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.7")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7")
 
+    implementation("com.github.javafaker:javafaker:0.14")
+
     implementation("org.slf4j:slf4j-api:1.7.25")
     implementation("org.apache.commons:commons-lang3:3.8.1")
     implementation("org.apache.commons:commons-collections4:4.0")
